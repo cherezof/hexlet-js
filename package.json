@@ -7,13 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
     "url": "git+https://github.com/cherezof/hexlet-js.git"
   },
+  "type": "module",
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cherezof/hexlet-js/issues"
   },
-  "homepage": "https://github.com/cherezof/hexlet-js#readme"
+  "homepage": "https://github.com/cherezof/hexlet-js#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
